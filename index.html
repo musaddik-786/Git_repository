@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sample Page</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">MySite</h1>
+      <nav class="main-nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h2>Welcome to MySite</h2>
+        <p class="lead">A clean, responsive starter template.</p>
+        <a class="btn" href="#">Get Started</a>
+      </div>
+    </section>
+
+    <section class="cards container" aria-label="Highlights">
+      <article class="card">
+        <h3>Fast</h3>
+        <p>Lightweight and optimized for performance.</p>
+      </article>
+      <article class="card">
+        <h3>Responsive</h3>
+        <p>Looks great on phones, tablets, and desktops.</p>
+      </article>
+      <article class="card">
+        <h3>Accessible</h3>
+        <p>Built with semantic HTML and keyboard navigation in mind.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> MySite. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // small script to set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
